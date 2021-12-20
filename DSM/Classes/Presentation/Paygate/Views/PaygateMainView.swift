@@ -36,6 +36,8 @@ final class PaygateMainView: UIView {
     }
     
     func setup(paygate: PaygateMainOffer) {
+        infoCell2.title = String(format: "Paygate.Main.Cell2".localized, paygate.questionCount)
+        
         let options = paygate.options?.prefix(2) ?? []
         
         if let leftOption = options.first {
@@ -104,10 +106,10 @@ private extension PaygateMainView {
         ])
         
         NSLayoutConstraint.activate([
-            imageView.widthAnchor.constraint(equalToConstant: 375.scale),
-            imageView.heightAnchor.constraint(equalToConstant: ScreenSize.isIphoneXFamily ? 146.scale : 90.scale),
+            imageView.widthAnchor.constraint(equalToConstant: 257.scale),
+            imageView.heightAnchor.constraint(equalToConstant: 106.scale),
             imageView.centerXAnchor.constraint(equalTo: centerXAnchor),
-            imageView.topAnchor.constraint(equalTo: topAnchor, constant: ScreenSize.isIphoneXFamily ? 93.scale : 65.scale)
+            imageView.topAnchor.constraint(equalTo: topAnchor, constant: ScreenSize.isIphoneXFamily ? 108.scale : 55.scale)
         ])
         
         NSLayoutConstraint.activate([
