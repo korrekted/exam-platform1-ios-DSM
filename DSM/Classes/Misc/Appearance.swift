@@ -18,4 +18,8 @@ struct Appearance {
     static let progress1Color = UIColor(integralRed: 99, green: 133, blue: 219)
     static let progress2Color = UIColor(integralRed: 239, green: 135, blue: 58)
     static let progress3Color = UIColor(integralRed: 168, green: 210, blue: 159)
+    
+    static let successColor = UIColor(integralRed: 46, green: 190, blue: 161)
+    static let errorColor = UIColor(integralRed: 255, green: 115, blue: 99)
+    static let warningColor = UIColor(integralRed: 255, green: 155, blue: 38)
 }
