@@ -32,6 +32,7 @@
 		96BF181D26A9BF3200AEF6D3 /* MediumRateWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BF181126A9BF3200AEF6D3 /* MediumRateWidget.swift */; };
 		96BF182326A9C08300AEF6D3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 96BF182226A9C08300AEF6D3 /* GoogleService-Info.plist */; };
 		96BF182626A9CD0100AEF6D3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 96BF17F526A9BF0100AEF6D3 /* Localizable.strings */; };
+		DE4FA13228D652BB00085483 /* Onboarding.Chart.json in Resources */ = {isa = PBXBuildFile; fileRef = DE4FA13128D652BB00085483 /* Onboarding.Chart.json */; };
 		DEC3836D289A9B44005372BC /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC381A8289A9B44005372BC /* UIColorExtension.swift */; };
 		DEC3836E289A9B44005372BC /* Collection+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC381A9289A9B44005372BC /* Collection+Extension.swift */; };
 		DEC3836F289A9B44005372BC /* Observable+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC381AA289A9B44005372BC /* Observable+Utils.swift */; };
@@ -334,7 +335,6 @@
 		DEC38498289A9B45005372BC /* OImproveCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC3834F289A9B44005372BC /* OImproveCell.swift */; };
 		DEC38499289A9B45005372BC /* ReferencesTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC38351289A9B44005372BC /* ReferencesTableCell.swift */; };
 		DEC3849A289A9B45005372BC /* ReferencesTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC38352289A9B44005372BC /* ReferencesTableView.swift */; };
-		DEC3849B289A9B45005372BC /* Onboarding.Chart.json in Resources */ = {isa = PBXBuildFile; fileRef = DEC38354289A9B44005372BC /* Onboarding.Chart.json */; };
 		DEC3849C289A9B45005372BC /* OWhenStudyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC38355289A9B44005372BC /* OWhenStudyCell.swift */; };
 		DEC3849D289A9B45005372BC /* WelcomeSlide1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC38357289A9B44005372BC /* WelcomeSlide1View.swift */; };
 		DEC3849E289A9B45005372BC /* WelcomeSlideIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC38358289A9B44005372BC /* WelcomeSlideIndicatorView.swift */; };
@@ -422,6 +422,7 @@
 		96BF182526A9C42200AEF6D3 /* StatsWidgetsExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StatsWidgetsExtension.entitlements; sourceTree = "<group>"; };
 		B452E374D53D6222C3658E95 /* Pods-DSM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DSM.debug.xcconfig"; path = "Target Support Files/Pods-DSM/Pods-DSM.debug.xcconfig"; sourceTree = "<group>"; };
 		B8D97C9C8A4243A9D6B1BFD4 /* Pods_DSM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DSM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE4FA13128D652BB00085483 /* Onboarding.Chart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Onboarding.Chart.json; sourceTree = "<group>"; };
 		DEC381A8289A9B44005372BC /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		DEC381A9289A9B44005372BC /* Collection+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Collection+Extension.swift"; sourceTree = "<group>"; };
 		DEC381AA289A9B44005372BC /* Observable+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Observable+Utils.swift"; sourceTree = "<group>"; };
@@ -724,7 +725,6 @@
 		DEC3834F289A9B44005372BC /* OImproveCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OImproveCell.swift; sourceTree = "<group>"; };
 		DEC38351289A9B44005372BC /* ReferencesTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReferencesTableCell.swift; sourceTree = "<group>"; };
 		DEC38352289A9B44005372BC /* ReferencesTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReferencesTableView.swift; sourceTree = "<group>"; };
-		DEC38354289A9B44005372BC /* Onboarding.Chart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Onboarding.Chart.json; sourceTree = "<group>"; };
 		DEC38355289A9B44005372BC /* OWhenStudyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OWhenStudyCell.swift; sourceTree = "<group>"; };
 		DEC38357289A9B44005372BC /* WelcomeSlide1View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeSlide1View.swift; sourceTree = "<group>"; };
 		DEC38358289A9B44005372BC /* WelcomeSlideIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeSlideIndicatorView.swift; sourceTree = "<group>"; };
@@ -2273,7 +2273,7 @@
 		DEC38353289A9B44005372BC /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				DEC38354289A9B44005372BC /* Onboarding.Chart.json */,
+				DE4FA13128D652BB00085483 /* Onboarding.Chart.json */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -2374,12 +2374,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEC384B8289A9B85005372BC /* SF-Pro-Rounded-Black.otf in Resources */,
-				DEC3849B289A9B45005372BC /* Onboarding.Chart.json in Resources */,
 				96BF182326A9C08300AEF6D3 /* GoogleService-Info.plist in Resources */,
 				96BF17F826A9BF0100AEF6D3 /* LaunchScreen.storyboard in Resources */,
 				96BF17F726A9BF0100AEF6D3 /* Localizable.strings in Resources */,
 				9667ECCC26A9BA4D0098C7F2 /* Assets.xcassets in Resources */,
 				96BF17FE26A9BF1000AEF6D3 /* SF-Pro-Rounded-Semibold.otf in Resources */,
+				DE4FA13228D652BB00085483 /* Onboarding.Chart.json in Resources */,
 				96BF180026A9BF1000AEF6D3 /* SF-Pro-Rounded-Bold.otf in Resources */,
 				96BF17FF26A9BF1000AEF6D3 /* SF-Pro-Rounded-Regular.otf in Resources */,
 			);
@@ -2967,7 +2967,7 @@
 				CODE_SIGN_ENTITLEMENTS = DSM/DSM.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 11;
+				CURRENT_PROJECT_VERSION = 12;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = ZY9AXRCYBM;
 				INFOPLIST_FILE = "$(SRCROOT)/DSM/Resource/Info.plist";
@@ -2976,7 +2976,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.1.0;
+				MARKETING_VERSION = 2.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.dsm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "DSM Prod";
@@ -2996,7 +2996,7 @@
 				CODE_SIGN_ENTITLEMENTS = DSM/DSM.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 11;
+				CURRENT_PROJECT_VERSION = 12;
 				DEVELOPMENT_TEAM = ZY9AXRCYBM;
 				INFOPLIST_FILE = "$(SRCROOT)/DSM/Resource/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -3004,7 +3004,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.1.0;
+				MARKETING_VERSION = 2.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.dsm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "DSM Prod";
@@ -3022,7 +3022,7 @@
 				CODE_SIGN_ENTITLEMENTS = StatsWidgetsExtension.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 11;
+				CURRENT_PROJECT_VERSION = 12;
 				DEVELOPMENT_TEAM = ZY9AXRCYBM;
 				INFOPLIST_FILE = StatsWidgets/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
@@ -3031,7 +3031,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 2.1.0;
+				MARKETING_VERSION = 2.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.dsm.widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "DSM Widget Prod";
@@ -3049,7 +3049,7 @@
 				CODE_SIGN_ENTITLEMENTS = StatsWidgetsExtension.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 11;
+				CURRENT_PROJECT_VERSION = 12;
 				DEVELOPMENT_TEAM = ZY9AXRCYBM;
 				INFOPLIST_FILE = StatsWidgets/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
@@ -3058,7 +3058,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 2.1.0;
+				MARKETING_VERSION = 2.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.dsm.widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "DSM Widget Prod";
